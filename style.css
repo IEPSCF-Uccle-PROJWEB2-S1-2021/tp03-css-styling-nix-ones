@@ -8,6 +8,12 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+
+  font-family: serif;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  word-spacing: 4px;
 }
 
 /* Layout */
@@ -42,4 +48,14 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
+h1{
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h1, h2{
+  font-family: sans-serif;
+}
+section p::first-line{
+text-indent: 20px;
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
