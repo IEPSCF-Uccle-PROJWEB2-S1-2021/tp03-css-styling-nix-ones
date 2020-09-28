@@ -59,4 +59,7 @@ h1, h2{
 section p::first-line{
 text-indent: 20px;
 }
+ul{
+  list-style: square;
+}
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
